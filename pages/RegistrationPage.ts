@@ -13,6 +13,7 @@ export class RegistrationPage extends BasePage {
   readonly wrongEmailError: Locator;
   readonly passwordConfirmationError: Locator;
   readonly registrationResult: Locator;
+  
 
   constructor(page: Page) {
     super(page);
